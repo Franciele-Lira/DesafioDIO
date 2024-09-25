@@ -1,0 +1,48 @@
+package desafio;
+import java.util.Scanner;
+
+public class ContaTerminal {
+
+	public static void main(String[] args) {
+		
+		// Criando um objeto Scanner para ler a entrada do usuário
+		Scanner scanner = new Scanner(System.in);
+		boolean dadosCorretos = false;
+		
+		System.out.println("Por favor, digite o número da Agência!");
+		String agencia = scanner.nextLine();
+
+        System.out.print("Por favor, digite o número da Conta: ");
+        String conta = scanner.nextLine();
+
+        System.out.print("Por favor, digite o seu Nome: ");
+        String nome = scanner.nextLine();
+
+        System.out.print("Por favor, digite o seu CPF: ");
+        String cpf = scanner.nextLine();
+        
+        
+     // Exibindo os dados do usuario
+        System.out.println("\nSeus dados são:");
+        System.out.println("Agência: " + agencia);
+        System.out.println("Conta: " + conta);
+        System.out.println("Nome: " + nome);
+        System.out.println("CPF: " + cpf);
+        
+        System.out.print("\nSe os dados estão corretos, pressione Enter para continuar ou digite 'Nao' para corrigir: ");
+        String resposta = scanner.nextLine();
+
+        // Verificando se o usuário deseja corrigir os dados
+        if (resposta.equalsIgnoreCase("Nao")) {
+            System.out.println("\nVamos refazer a entrada de dados.\n");
+        } else {
+            dadosCorretos = true;
+            System.out.println("Dados confirmados. Continuando...");
+        }
+    
+        
+        scanner.close();
+
+		
+	}
+}

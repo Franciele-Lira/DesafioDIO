@@ -1,0 +1,2 @@
+2024-09-25 09:34:28,957 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2024-09-25 11:04:56,603 [Framework stop - Equinox Container: 579d089d-1923-4ba4-9b04-9b1e839111fe] WARN  org.eclipse.jgit.lib.Repository - close() called when useCnt is already zero for Repository[C:\Users\franc\git\DesafioDIO\.git]

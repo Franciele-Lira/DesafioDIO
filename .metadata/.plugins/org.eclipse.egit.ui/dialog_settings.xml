@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Franciele-Lira/DesafioDIO.git"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\franc\git\DesafioDIO\.git">
+			<item value="false"/>
+			<item value="franc &lt;francielelira22@gmail.com&gt;"/>
+			<item value="Deasfio Dio"/>
+			<item value="franc &lt;francielelira22@gmail.com&gt;"/>
+			<item value="7b017d3c9a783121fb554391507a289c24243b77"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>
